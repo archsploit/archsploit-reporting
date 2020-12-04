@@ -1,0 +1,20 @@
+Source: nipper-ng
+Section: utils
+Priority: extra
+Maintainer: Kali Developers <devel@kali.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://code.google.com/p/nipper-ng/
+Vcs-Git: https://gitlab.com/kalilinux/packages/nipper-ng.git
+Vcs-Browser: https://gitlab.com/kalilinux/packages/nipper-ng
+
+Package: nipper-ng
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Device security configuration review tool
+ Nipper-ng is the next generation of nippper, and will always remain free and 
+ open source. This software will be used to make observations about the security 
+ configurations of many different device types such as routers, firewalls, 
+ and switches of a network infrastructure.
+ .
+ This is a fork from nipper 0.11.10 release of the GNUv3 GPL code.
